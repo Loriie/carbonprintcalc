@@ -1,7 +1,6 @@
-from streamlit import config as _config
-from streamlit.web.bootstrap import run
-_config.set_option("server.headless", True)
-run('your_app.py', args=[], flag_options=[], is_hello=False)
+pip install streamlit
+streamlit hello
+streamlit run your_script.py [-- script args]
 
 # Define emission factors (example values, replace with accurate data)
 EMISSION_FACTORS = {
